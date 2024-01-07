@@ -27,10 +27,21 @@ console.log(y);
 
 //STRING
 
-let firstName = "Muyingo";
-let secondName = "Abubakar";
-let career = "programming";
-let favoriteFood = "pasta";
+// let firstName = "Muyingo";
+// let secondName = "Abubakar";
+// let career = "programming";
+// let favoriteFood = "pasta";
 
-console.log(`He is ${firstName} ${secondName} who loves a 
-${career} career and he loves to eat ${favoriteFood} much`);
+// console.log(typeof career);
+// console.log(`He is ${firstName} ${secondName} who loves a
+// ${career} career and he loves to eat ${favoriteFood} much`);
+
+//BOOLEANS
+
+let online = true;
+let forSale = false;
+let isStudent = true;
+
+console.log(`Is muyingo online? ${online}`);
+console.log(`Are you selling your laptop Mr. Muyingo? ${forSale}`);
+console.log(`Do you study in this program, Mr. Muyingo? ${isStudent}`);
