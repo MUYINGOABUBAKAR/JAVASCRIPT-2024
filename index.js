@@ -1,13 +1,25 @@
 // console.log("Hello world");
 // console.log("I like pizza");
 
-// window.alert(`This ia alert!`);
-// window.alert(`I like pizza`);
+//variables are a cotainers that stores values
 
-document.getElementById("myH1").textContent = `ABUBAKAR`;
-document.getElementById("myP").textContent = `MUYINGO`;
-document.getElementById(`myP2`).innerHTML = `BAKER`;
-//This is a comment
+/* we declare and assign variables
 
-/* All the next 
-is a commet unless closed */
+//declaration
+let x;
+//assignment
+x = 100;
+console.log(x);
+
+//syntax
+let y = 100;
+console.log(y);
+*/
+
+let age = 25;
+let price = 300;
+let gpa = 1.02;
+
+console.log(typeof age);
+console.log(`Muyingo Abubakar age is ${age}
+ and he likes a pizza of $${price} at ${gpa}`);
