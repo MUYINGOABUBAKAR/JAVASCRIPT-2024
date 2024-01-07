@@ -38,10 +38,20 @@ console.log(y);
 
 //BOOLEANS
 
-let online = true;
-let forSale = false;
-let isStudent = true;
+// let online = true;
+// let forSale = false;
+// let isStudent = true;
 
-console.log(`Is muyingo online? ${online}`);
-console.log(`Are you selling your laptop Mr. Muyingo? ${forSale}`);
-console.log(`Do you study in this program, Mr. Muyingo? ${isStudent}`);
+// console.log(`Is muyingo online? ${online}`);
+// console.log(`Are you selling your laptop Mr. Muyingo? ${forSale}`);
+// console.log(`Do you study in this program, Mr. Muyingo? ${isStudent}`);
+
+let fullName = "Muyingo Abubakar";
+let age = 25;
+let isStudent = false;
+let course = "programmer";
+
+document.getElementById("P1").textContent = `Full Names: ${fullName}`;
+
+document.getElementById("P2").textContent = `He is ${age} years old`;
+document.getElementById("P3").textContent = `Enrolled: ${isStudent}`;
